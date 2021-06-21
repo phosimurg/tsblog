@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import React from 'react'
 import styles from '../styles/Home.module.css'
+import Header from "../components/header";
 
 export default function Home() {
   return (
@@ -13,6 +15,11 @@ export default function Home() {
       </Head>
 
       <main className={""}>
+
+          <div>
+              <Header/>
+          </div>
+
 
       </main>
 
